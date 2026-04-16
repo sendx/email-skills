@@ -34,8 +34,8 @@ Every skill is standalone, but they cross-reference each other. The `deliverabil
    │ab-testing│   │industry- │       │complianc-│       │engine    │   │ESP-hard- │
    │smart-    │   │playbooks │       │navigator │       │workflow- │   │bounce-   │
    │segment   │   │          │       │ESP-*     │       │automtion │   │unlock    │
-   │workflow- │   │          │       │infra/    │       │api-camp- │   │ESP-mali- │
-   │automtion │   │          │       │deliv-aud │       │builder   │   │cious     │
+   │workflow- │   │          │       │deliv-    │       │api-camp- │   │ESP-mali- │
+   │automtion │   │          │       │audit     │       │builder   │   │cious     │
    └────┬─────┘   └────┬─────┘       └────┬─────┘       └────┬─────┘   └────┬─────┘
         │              │                   │                  │              │
         └──────────────┴─────────┬─────────┴──────────────────┴──────────────┘
@@ -62,7 +62,7 @@ Every skill is standalone, but they cross-reference each other. The `deliverabil
 | [ESP-hardbounce-unlock](skills/ESP-hardbounce-unlock) | Hard bounce unlock request evaluation for ESP accounts. |
 | [ESP-malicious-behavior-SKILL](skills/ESP-malicious-behavior-SKILL) | Identify and investigate malicious sending behavior on your ESP. |
 | [industry-playbooks](skills/industry-playbooks) | Implement proven email strategies tailored to your industry using SendX features built for your business type. |
-| [infrastructure/deliverability-audit](skills/infrastructure/deliverability-audit) | Full audit of an email program's deliverability setup. Finds problems, explains fixes in plain English. |
+| [deliverability-audit](skills/deliverability-audit) | Full audit of an email program's deliverability setup. Finds problems, explains fixes in plain English. |
 | [list-growth-engine](skills/list-growth-engine) | Grow your email list using popups, forms, and landing pages with trigger strategies and lead magnets. |
 | [smart-segmentation](skills/smart-segmentation) | Organize your list with segments and tags so the right people get the right email at the right time. |
 | [workflow-automation](skills/workflow-automation) | Build multi-step email sequences that respond to customer actions automatically. |
@@ -70,7 +70,7 @@ Every skill is standalone, but they cross-reference each other. The `deliverabil
 ## Skill categories
 
 ### Deliverability & Infrastructure
-`deliverability-guide` · `email-deliverability-expert-skill` · `infrastructure/deliverability-audit` · `compliance-navigator`
+`deliverability-guide` · `email-deliverability-expert-skill` · `deliverability-audit` · `compliance-navigator`
 
 ### Campaign Strategy & Execution
 `campaign-strategy` · `ab-testing` · `smart-segmentation` · `workflow-automation`
@@ -161,7 +161,7 @@ Once installed, just ask your agent to help with email tasks:
 → Uses workflow-automation + email-copywriting
 
 "I need to warm up a new IP address"
-→ Uses infrastructure/deliverability-audit + deliverability-guide
+→ Uses deliverability-audit + deliverability-guide
 
 "What should my abandoned cart email say?"
 → Uses industry-playbooks + email-copywriting + campaign-strategy
@@ -170,7 +170,7 @@ Once installed, just ask your agent to help with email tasks:
 → Uses email-analytics + deliverability-guide
 ```
 
-**Pro tip:** Start with the `infrastructure/deliverability-audit` skill. It'll tell you where your biggest problems are and which other skills to use next.
+**Pro tip:** Start with the `deliverability-audit` skill. It'll tell you where your biggest problems are and which other skills to use next.
 
 ## Who built this?
 

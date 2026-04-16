@@ -6,7 +6,7 @@ Skills for AI coding agents focused on email marketing tasks.
 
 All skills live in `skills/<skill-name>/SKILL.md`. Each is standalone markdown with YAML frontmatter containing `name`, `description`, and `category`.
 
-One skill (`email-deliverability-expert-skill`) includes a `references/` subfolder with supplementary material. One skill lives nested at `skills/infrastructure/deliverability-audit/`.
+One skill (`email-deliverability-expert-skill`) includes a `references/` subfolder with supplementary material.
 
 ## Usage
 
@@ -27,7 +27,7 @@ Skills reference each other. Follow cross-references when the user's question sp
 - `esp-hardbounce-unlock` — Hard bounce unlock evaluation
 - `esp-malicious-behavior` — Malicious sender investigation
 - `industry-playbooks` — Vertical-specific email strategies
-- `infrastructure/deliverability-audit` — Full deliverability program audit
+- `deliverability-audit` — Full deliverability program audit
 - `list-growth-engine` — List building with popups, forms, and lead magnets
 - `smart-segmentation` — List segmentation and targeting
 - `workflow-automation` — Automated email sequences

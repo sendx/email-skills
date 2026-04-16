@@ -5,7 +5,7 @@ A collection of AI agent skills for email marketing, built by SendX and SendPost
 ## Repo structure
 
 - `skills/<skill-name>/SKILL.md` — each skill is a standalone markdown file
-- Skills are mostly flat, with one exception: `infrastructure/deliverability-audit/`
+- All skills are flat: `skills/<skill-name>/SKILL.md`
 - Categories are organizational labels in the README, not filesystem directories
 
 ## Skill format
@@ -48,7 +48,7 @@ The `email-deliverability-expert-skill` includes a `references/` folder with sup
 - `esp-hardbounce-unlock` — Hard bounce unlock evaluation
 - `esp-malicious-behavior` — Malicious sender investigation
 - `industry-playbooks` — Vertical-specific email strategies
-- `infrastructure/deliverability-audit` — Full deliverability audit
+- `deliverability-audit` — Full deliverability audit
 - `list-growth-engine` — List building with popups, forms, lead magnets
 - `smart-segmentation` — List segmentation and targeting
 - `workflow-automation` — Automated email sequences

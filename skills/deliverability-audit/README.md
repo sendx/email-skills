@@ -53,8 +53,8 @@ This skill turns Claude into a deliverability specialist who walks through your 
 - [IP Warmup Planner](../ip-warmup-planner/) - If you need to warm up a new IP
 - [Bounce Diagnostics](../bounce-diagnostics/) - If bounces are your main problem
 - [Domain Reputation](../domain-reputation/) - If domain reputation is flagged
-- [List Hygiene](../../compliance/list-hygiene/) - If list quality is the issue
+- [List Hygiene](../list-hygiene/) - If list quality is the issue
 
 ---
 
-*Part of [Email Marketing Skills for Claude](../../../README.md) by [SendX](https://sendx.io) and [SendPost](https://sendpost.io).*
+*Part of [Email Marketing Skills for Claude](../../README.md) by [SendX](https://sendx.io) and [SendPost](https://sendpost.io).*

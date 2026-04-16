@@ -1,0 +1,134 @@
+{
+  "name": "sendx-email-skills",
+  "owner": {
+    "name": "SendX",
+    "email": "hello@sendx.io"
+  },
+  "metadata": {
+    "description": "Email marketing skills for AI agents. Deliverability, compliance, copywriting, automation, analytics, and growth.",
+    "version": "1.0.0",
+    "pluginRoot": "./skills"
+  },
+  "plugins": [
+    {
+      "name": "ab-testing",
+      "source": "./ab-testing",
+      "description": "Run email A/B tests that produce measurable results and guide future campaign decisions.",
+      "version": "1.0.0",
+      "category": "campaign",
+      "tags": ["email", "testing", "optimization"]
+    },
+    {
+      "name": "api-campaign-builder",
+      "source": "./api-campaign-builder",
+      "description": "Create, schedule, and manage HTML email campaigns through the SendX REST API.",
+      "version": "1.0.0",
+      "category": "campaign",
+      "tags": ["email", "api", "sendx", "campaigns"]
+    },
+    {
+      "name": "campaign-strategy",
+      "source": "./campaign-strategy",
+      "description": "Pick the right SendX campaign type for any email marketing situation.",
+      "version": "1.0.0",
+      "category": "campaign",
+      "tags": ["email", "strategy", "sendx"]
+    },
+    {
+      "name": "compliance-navigator",
+      "source": "./compliance-navigator",
+      "description": "Navigate email privacy laws and stay compliant worldwide.",
+      "version": "1.0.0",
+      "category": "compliance",
+      "tags": ["email", "compliance", "gdpr", "can-spam", "privacy"]
+    },
+    {
+      "name": "deliverability-audit",
+      "source": "./deliverability-audit",
+      "description": "Full audit of an email program's deliverability setup. Finds problems, explains fixes in plain English.",
+      "version": "1.0.0",
+      "category": "deliverability",
+      "tags": ["email", "deliverability", "audit", "infrastructure"]
+    },
+    {
+      "name": "deliverability-guide",
+      "source": "./deliverability-guide",
+      "description": "Master email authentication, reputation, and list hygiene to keep emails in the inbox.",
+      "version": "1.0.0",
+      "category": "deliverability",
+      "tags": ["email", "deliverability", "authentication", "reputation"]
+    },
+    {
+      "name": "email-analytics",
+      "source": "./email-analytics",
+      "description": "Understand what your email metrics mean and know what action to take based on the numbers.",
+      "version": "1.0.0",
+      "category": "analytics",
+      "tags": ["email", "analytics", "metrics", "reporting"]
+    },
+    {
+      "name": "email-copywriting",
+      "source": "./email-copywriting",
+      "description": "Write subject lines, preview text, and body copy that gets opened, read, and clicked.",
+      "version": "1.0.0",
+      "category": "content",
+      "tags": ["email", "copywriting", "subject-lines", "content"]
+    },
+    {
+      "name": "email-deliverability-expert",
+      "source": "./email-deliverability-expert-skill",
+      "description": "Diagnose and fix email deliverability problems using a proven, systematic methodology.",
+      "version": "1.0.0",
+      "category": "deliverability",
+      "tags": ["email", "deliverability", "diagnosis", "advanced"]
+    },
+    {
+      "name": "hardbounce-unlock",
+      "source": "./ESP-hardbounce-unlock",
+      "description": "Hard bounce unlock request evaluation for ESP accounts.",
+      "version": "1.0.0",
+      "category": "esp-ops",
+      "tags": ["email", "bounces", "esp", "operations"]
+    },
+    {
+      "name": "malicious-behavior",
+      "source": "./ESP-malicious-behavior-SKILL",
+      "description": "Identify and investigate malicious sending behavior on your ESP.",
+      "version": "1.0.0",
+      "category": "esp-ops",
+      "tags": ["email", "security", "esp", "operations"]
+    },
+    {
+      "name": "industry-playbooks",
+      "source": "./industry-playbooks",
+      "description": "Implement proven email strategies tailored to your industry using SendX features built for your business type.",
+      "version": "1.0.0",
+      "category": "campaign",
+      "tags": ["email", "strategy", "industry", "vertical"]
+    },
+    {
+      "name": "list-growth-engine",
+      "source": "./list-growth-engine",
+      "description": "Grow your email list using popups, forms, and landing pages with trigger strategies and lead magnets.",
+      "version": "1.0.0",
+      "category": "growth",
+      "tags": ["email", "list-building", "popups", "forms", "leads"]
+    },
+    {
+      "name": "smart-segmentation",
+      "source": "./smart-segmentation",
+      "description": "Organize your list with segments and tags so the right people get the right email at the right time.",
+      "version": "1.0.0",
+      "category": "campaign",
+      "tags": ["email", "segmentation", "targeting", "lists"]
+    },
+    {
+      "name": "workflow-automation",
+      "source": "./workflow-automation",
+      "description": "Build multi-step email sequences that respond to customer actions automatically.",
+      "version": "1.0.0",
+      "category": "campaign",
+      "tags": ["email", "automation", "sequences", "workflows"]
+    }
+  ]
+}
